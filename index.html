@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romu, Be Mine 💖</title>
+    <meta
+      name="description"
+      content="A cute, playful proposal website with a cat theme for Romu."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-shapes" aria-hidden="true">
+      <span class="shape shape-1">❤</span>
+      <span class="shape shape-2">🐾</span>
+      <span class="shape shape-3">😺</span>
+      <span class="shape shape-4">💖</span>
+      <span class="shape shape-5">🌙</span>
+    </div>
+
+    <main class="page-shell">
+      <header class="topbar">
+        <div class="brand">Romu &amp; Me</div>
+        <button id="musicToggle" class="tiny-btn" type="button">🎵 Play tune</button>
+      </header>
+
+      <section class="hero card">
+        <div class="hero-copy">
+          <p class="eyebrow">A very important question for my favorite person</p>
+          <h1>Romu, will you be my girlfriend? 🐱💞</h1>
+          <p class="lead">
+            From miles apart to this exact moment, my heart has been chasing yours in the
+            cutest, silliest, and most loving way possible. And now, I want to make it real.
+          </p>
+          <div class="cta-row">
+            <button id="openLetterBtn" class="primary-btn" type="button">Open my love note</button>
+            <button id="scrollToProposal" class="secondary-btn" type="button">See the big ask</button>
+          </div>
+        </div>
+
+        <div class="cat-showcase" aria-label="Cute cat illustration">
+          <div class="cat-card">
+            <div class="cat-face">
+              <span class="ear left"></span>
+              <span class="ear right"></span>
+              <span class="eye left"></span>
+              <span class="eye right"></span>
+              <span class="nose"></span>
+              <span class="mouth"></span>
+              <span class="cheek left"></span>
+              <span class="cheek right"></span>
+            </div>
+            <div class="cat-bow">♥ Romu ♥</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="letter" class="love-letter card hidden">
+        <p class="section-tag">A little message from my heart</p>
+        <h2>Dear Romu,</h2>
+        <p>
+          You are the kind of person who can make a boring day feel magical, a quiet night feel
+          warm, and a long distance feel a little less long. I never thought my heart could feel
+          this happy and this brave at the same time — but you make it happen.
+        </p>
+        <p>
+          Every time I think of you, I smile like a goofy cat with a heart full of tiny sparkles.
+          You are my comfort, my laughter, my favorite thought, and my sweetest little adventure.
+          I want to keep choosing you, keep laughing with you, and keep making memories that feel
+          like home.
+        </p>
+        <p>
+          So here’s my sweetest confession: I want you to be mine — not just in my dreams, but in
+          real life too. Will you be my girlfriend and let me love you in the cutest, most playful,
+          most unforgettable way possible? 🐾💖
+        </p>
+        <p class="signature">Yours forever, <span>the one who fell for your smile</span></p>
+      </section>
+
+      <section class="journey card">
+        <p class="section-tag">Our cute little story</p>
+        <h2>From long-distance crush to the best part of my day</h2>
+        <div class="timeline">
+          <article>
+            <span class="dot">1</span>
+            <h3>First spark</h3>
+            <p>A smile, a vibe, and suddenly my thoughts kept drifting back to you.</p>
+          </article>
+          <article>
+            <span class="dot">2</span>
+            <h3>Little talks</h3>
+            <p>Late chats and warm moments turned into my favorite part of every day.</p>
+          </article>
+          <article>
+            <span class="dot">3</span>
+            <h3>Big feelings</h3>
+            <p>What started as a crush became something so soft, so real, and so beautiful.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proposal" class="proposal card">
+        <p class="section-tag">The big moment</p>
+        <h2>Romu, I want us to be official.</h2>
+        <div class="final-box">
+          <div class="ring-wrap" aria-hidden="true">
+            <div class="ring">💍</div>
+          </div>
+          <p>
+            Because with you, even the distance feels smaller. Because with you, my heart feels at
+            home. Because with you, every little moment becomes something worth keeping forever.
+          </p>
+        </div>
+        <button id="finalRevealBtn" class="embrace-btn" type="button">Reveal my final wish</button>
+        <div id="finalAnswer" class="final-answer hidden">
+          <span class="sparkle">✨</span>
+          <h3>Yes, I want to be yours, Romu.</h3>
+          <span class="sparkle">✨</span>
+        </div>
+      </section>
+    </main>
+
+    <div id="heartField" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
